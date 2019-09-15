@@ -3,20 +3,20 @@
         category: 'function',
         color: '#f6bbcf',
         defaults: {
-            iotaNode: {value: "http://node04.nodeblie.de:14265/"},
-	    iotaSeed: {value: "HELLOWORLDHELLOWORLDHELLOWORLDHELLOWORLDHELLOWORLDHELLOWORLDHELLOWORLDHELLOWORLDD"},
-	    iotaAddr: {value: "HELLOWORLDHELLOWORLDHELLOWORLDHELLOWORLDHELLOWORLDHELLOWORLDHELLOWORLDHELLOWORLDD"}
+            iotaNode: {value: "http://node05.iotatoken.nl:16265"},
+	    iotaSeed: {value: "GREENPROTOCOLGREENPROTOCOLGREENPROTOCOLGREENPROTOCOLGREENPROTOCOLGREENPROTOCOL999"},
+	    iotaAddr: {value: "GREENPROTOCOLGREENPROTOCOLGREENPROTOCOLGREENPROTOCOLGREENPROTOCOLGREENPROTOCOL999"
         },
         inputs:1,
         outputs:1,
         icon: "iota.png",
         label: function() {
-            return this.name||"tx0Publish";
+            return this.name||"iotaPublish";
         }
     });
 </script>
 
-<script type="text/x-red" data-template-name="tx0Publish">
+<script type="text/x-red" data-template-name="iotaPublish">
     <div class="form-row">
     <label for="node-function-iotaNode"><i class="icon-tag"></i> IOTA node</label>
     <input type="text" id="node-input-iotaNode">
